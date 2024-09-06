@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERÍCIA EM FOCO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PERÍCIA EM FOCO</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bem-vindo à PERÍCIA EM FOCO</h2>
+            <p>Prestação de serviços técnicos Periciais em diversas áreas.</p>
+        </section>
+        <section id="services">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Perícia Automotiva</li>
+                <li>Perícia sobre Acidentes de Trânsito</li>
+                <li>Perícias em Imóveis</li>
+                <li>Perícias Grafotécnicas</li>
+                <li>Perícias para Varas Cíveis</li>
+                <li>Atuação como Assistentes Periciais</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <p>Email: contato@periciaemfoco.com</p>
+            <p>Telefone: (XX) XXXX-XXXX</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 PERÍCIA EM FOCO. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+// Adicione aqui qualquer funcionalidade JavaScript que você precise
